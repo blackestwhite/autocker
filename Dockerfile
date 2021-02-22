@@ -1,7 +1,6 @@
 FROM alpine
 FROM golang
-RUN "cd /"
-RUN "mkdir -p app"
+RUN mkdir app
 ADD . /app
 WORKDIR /app
 RUN "go build main.go"
