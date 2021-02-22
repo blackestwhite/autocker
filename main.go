@@ -11,5 +11,5 @@ func main() {
 }
 
 func home(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "post-merge t007 test.myren.xyz")
+	fmt.Fprintf(w, "post-merge test")
 }
