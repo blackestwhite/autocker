@@ -13,7 +13,7 @@ docker run -d --rm -p 2128:80 --name [container-name] [image-name]
 ```
 
 
-`run` executable file:
+`run.sh` executable file:
 
 ```
 #!/bin/bash
