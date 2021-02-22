@@ -1,6 +1,6 @@
 test
 
-## simple docker auto build and run after script
+## simple docker auto build and run after post-merge
 
 first things first 
 ```bash
