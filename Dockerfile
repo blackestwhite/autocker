@@ -1,3 +1,4 @@
+FROM alpine
 FROM golang
 RUN "mkdir app"
 ADD . /app
