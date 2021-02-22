@@ -1,5 +1,5 @@
 FROM golang
-RUN "MKDIR /app"
+RUN "mkdir /app"
 ADD . /app
 WORKDIR /app
 RUN "go build main.go"
