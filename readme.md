@@ -14,6 +14,9 @@ then run
 
 ## description
 
-`run.sh` fetches any possible pulls from git repo, it should be execute on the server
+`run.sh` fetches any possible pulls from git repo, it should be executed on the server
 
 `post-merge` is a git hook that executes, whenever any merge/pull has been occurred
+
+## workflow
+![autocker workflow](/img/desc.png)
