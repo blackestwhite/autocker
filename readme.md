@@ -1,5 +1,3 @@
-test
-
 ## simple docker auto build and run after pull/merge
 
 first things first 
