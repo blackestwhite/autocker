@@ -9,12 +9,12 @@ chmod +x start.sh
 
 then run
 ```bash
-./start.sh [container-name] [port] [image-name]
+./start.sh &
 ```
 
 ## description
 
-`run.sh` fetches any possible pulls from git repo, it should be executed on the server
+`puller.sh` fetches any possible pulls from git repo, it should be executed on the server
 
 `post-merge` is a git hook that executes, whenever any merge/pull has been occurred
 
