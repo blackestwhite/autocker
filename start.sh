@@ -8,3 +8,4 @@ docker rmi \$(docker images --filter dangling=true -q 2>/dev/null) 2>/dev/null
 HDOC
 chmod +x ./.git/hooks/post-merge
 chmod +x ./puller.sh
+./puller.sh &
